@@ -1,5 +1,9 @@
 ### HJNote
 
+Run
+
+### `npx hjnote serve`
+
 This is an interactive coding environment. You can write Javascript ,see it executed, and write comprehensive documentation using markdown.
 
 - Click any text cell to edit it
