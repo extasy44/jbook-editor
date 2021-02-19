@@ -22,7 +22,7 @@ export const serveCommand = new Command()
       );
     } catch (error) {
       if (error.code === 'EADDRINUSE') {
-        console.log('Port is in use. Tru running on a different port');
+        console.log('Port is in use. Try running on a different port');
       } else {
         console.log('Here is the problem : ', error);
       }
